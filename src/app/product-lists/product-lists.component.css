@@ -1,0 +1,53 @@
+.parent{
+    display: flex;
+    height: 95vh;
+    width: 100vw;
+    }
+
+.child1{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: normal;
+    overflow: scroll;
+    
+}
+
+.card{
+    width: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-body{
+    width: 20vw;
+}
+
+p{
+    font-size: small;
+}
+
+.child2{
+    width:47vw; 
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align:center;
+    padding-left: 50px;
+    overflow: scroll;
+    /* box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border:1px solid #cce7d0;
+    border-radius:4px; */
+    
+    /* padding: 25px 15px; */
+    /* box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border:1px solid #cce7d0;
+    border-radius:4px;
+    /* margin:15px 0; */
+    /* margin-left: 25%;
+    height: 600vh; */
+}
+

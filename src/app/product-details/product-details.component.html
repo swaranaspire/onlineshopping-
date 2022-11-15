@@ -1,0 +1,11 @@
+<div class="card-body" *ngIf="product.id">
+    <p><img src="{{ product.image }}" width="300px" height="300px" /></p>
+    <h6>Products Name: {{ product?.title }}</h6>
+    <p>Id:{{ product?.id }} </p>
+    <p>Price:{{ product?.price }} </p>
+    <p>Description:{{ product?.description }} </p>
+    <p>Category:{{ product?.category }} </p>
+    <p>Rating:{{ product?.rating?.rate }} </p>
+    <button type="button" class="btn btn-success">Add to cart</button>
+    <button type="button" class="btn btn-danger" (click)="delete(product?.id)">Delete</button>
+</div>
